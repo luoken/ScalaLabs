@@ -17,6 +17,7 @@ resolvers ++= Seq("Local Maven Repository" at "file:///"+Path.userHome+"/.m2/rep
 // see: https://github.com/harrah/xsbt/wiki/Library-Management
 // externalPom()
 
+
 libraryDependencies ++= Seq("joda-time" % "joda-time" % "1.6",
         "org.apache.httpcomponents" % "httpclient" % "4.1.1",
         "javax.persistence" % "persistence-api" % "1.0",

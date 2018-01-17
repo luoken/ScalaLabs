@@ -4,6 +4,7 @@ import java.lang.{ IllegalArgumentException => IAE }
 import org.junit.runner.RunWith
 import org.specs2.mutable.Specification
 import org.specs2.runner.JUnitRunner
+import org.specs2.runner.NotifierRunner
 
 /**
  * Beginner Hello World:
